@@ -10,7 +10,7 @@ class Main:
     savings_acc.withdraw(100)
     savings_acc.apply_interest_rate()
 
-    # Create checking account
+    
     checking_acc = CheckingAccount("CA001","Bob",500, 100)
     bank.add_Account(checking_acc)
     checking_acc.deposit(300)
