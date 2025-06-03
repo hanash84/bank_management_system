@@ -3,10 +3,10 @@ class Account(ABC):
     def __init__(self,accountnumber,owner,balance):
         self.__accountnumber=accountnumber
         self.__owner=owner
-        self.__balance=int(balance)
+        self.__balance=balance
 
     def set_balance(self, balance):
-        self.__balance = int(balance)
+        self.__balance =balance
     def get_balance(self):
         return  self.__balance
     def get_owner(self):
